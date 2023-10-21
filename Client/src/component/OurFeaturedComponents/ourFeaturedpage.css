@@ -1,0 +1,73 @@
+.ourfeatured-bg .mini-sec {
+  position: relative;
+  background-color: black;
+  background-image: url(/public/pics/aboutUs-bg.webp);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.ourfeatured-bg .mini-sec .disc {
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.681);
+  backdrop-filter: blur(5.8px);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+/* The Second Section styles are from AboutUs thrd Section styling */
+
+.why-aw {
+  background-color: white;
+}
+
+.why-aw .header-disc {
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.why-aw .card-container {
+  flex-wrap: wrap;
+}
+
+.why-aw .card-container .card {
+  height: 34em;
+  position: relative;
+  padding: 0;
+  min-width: 20em;
+}
+
+.why-aw .card-container .card .bg-num {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  padding: 0;
+  width: fit-content;
+  font-size: 100px;
+  font-weight: bolder;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.why-aw .card-container .card h1 {
+  text-align: center;
+  padding: 1.5em 0.5em;
+  margin: 0;
+  font-size: 25px;
+  color: white;
+  background-size: cover;
+  border-radius: 1em 1em 0 0;
+  height: 5em;
+}
+
+.why-aw .card-container .card p {
+  padding: 0.5em 0.5em;
+}

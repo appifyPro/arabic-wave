@@ -1,0 +1,74 @@
+.learn-bg .mini-sec {
+  position: relative;
+  /* background-color: black; */
+  background-image: url(/public/pics/wave-main-bg.webp);
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  background-color: white;
+}
+
+.learn-bg .mini-sec .disc {
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 2em;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.learn-bg .mini-sec .btns {
+  margin-top: 2em;
+}
+
+.learn-sec {
+  background-color: white;
+}
+
+.learn-sec .learn-first-sec {
+  padding: 1em 3em;
+}
+
+.learn-sec .learn-first-sec .content {
+  padding: 0 3em;
+  width: 100%;
+}
+
+.learn-sec .learn-first-sec .content h1 {
+  margin: 2em 0 1em 0;
+}
+
+.learn-sec img {
+  width: 100%;
+  height: 30em;
+}
+
+.learn-sec .learn-sec-sec {
+  padding: 3em;
+}
+
+@media (max-width: 900px) {
+  .learn-bg .mini-sec .btns {
+    display: inline;
+    margin-top: 0;
+  }
+  .learn-sec .learn-first-sec {
+    padding: 1em 1em;
+  }
+  .learn-sec .learn-first-sec .content {
+    padding: 0em;
+  }
+  .learn-bg .mini-sec .btns a {
+    margin-top: 1em;
+    font-size: 16px;
+  }
+
+  .learn-sec .learn-first-sec p,
+  .learn-sec .learn-first-sec img {
+    width: 100%;
+  }
+}

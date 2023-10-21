@@ -1,0 +1,173 @@
+.blog-bg .mini-sec {
+  position: relative;
+  background-color: black;
+  background-image: url(/public/pics/aboutUs-bg.webp);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.blog-bg .mini-sec .disc {
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.681);
+  backdrop-filter: blur(5.8px);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.blog-bg .mini-sec .disc .btns a {
+  padding: 1em 2em;
+}
+
+.blog-sec {
+  flex-wrap: wrap;
+}
+
+.blog-sec .blog-card {
+  width: 20em;
+  height: 34em;
+  background-color: var(--bgColorGray--);
+  margin: 1em 2em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  position: relative;
+}
+
+.blog-sec .blog-card img {
+  position: relative;
+  width: 100%;
+  height: 9em;
+  z-index: 1;
+  border-radius: 5px 5px 0 0;
+}
+
+.blog-sec .blog-card h1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  z-index: 3;
+  padding: 1em 0.3em;
+  margin: 0;
+  color: white;
+  /* border-radius: .5em .5em 0 0 ; */
+}
+
+.blog-sec .blog-card p {
+  padding: 1em;
+  text-overflow: ellipsis;
+  height: 22em;
+  overflow: hidden;
+}
+
+.blog-sec .blog-card button {
+  height: 3em;
+}
+
+.blog-popup {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 50vh;
+}
+
+.blog-popup .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.blog-popup .container img {
+  width: 100%;
+  height: 30vh;
+}
+
+.blog-popup .container h1 {
+  padding: 1em 2em;
+}
+
+.blog-popup .container p {
+  padding: 0 3em;
+}
+
+/* POST STYLES */
+
+.post-sec {
+  position: relative;
+  width: 90%;
+  background-color: white;
+  margin: 2em auto;
+  border-radius: 2em;
+  padding: 0;
+}
+
+.post-sec img {
+  width: 100%;
+  height: 50vh;
+}
+
+.post-sec .content {
+  padding: 1em 2em;
+}
+
+.post-sec .content h1 {
+  margin-bottom: 1em;
+}
+
+.post-sec .content p {
+  margin-bottom: 2em;
+}
+
+.post-sec .content p span {
+  font-weight: bold;
+}
+
+.post-sec .content img {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.post-sec .back-to-blogs {
+  position: fixed;
+  top: 2%;
+  right: 5%;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.708);
+}
+
+.post-sec .back-to-blogs:active {
+  background-color: gray;
+}
+
+.post-sec .back-to-blogs img {
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 1026px) {
+  .blog-bg .mini-sec .disc .btns a {
+    padding: 1.5em 2em;
+  }
+}

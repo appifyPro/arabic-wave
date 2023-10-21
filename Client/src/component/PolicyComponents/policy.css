@@ -1,0 +1,56 @@
+.policy-bg .mini-sec {
+    position: relative;
+    background-image: url(/public/pics/wave-main-bg.webp);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+}
+
+.policy-bg .mini-sec .disc {
+    position: absolute;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    padding: 2em;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.policy-sec {
+    padding: 0;
+}
+
+.policy-sec .content-container {
+    padding: 2em 4em;
+    background-color: white;
+}
+
+.policy-sec .content-container h1 {
+    padding: 1em 0;
+}
+
+.policy-sec .content-container ul li{
+    position: relative;
+    padding: 1em 0;
+    transform: translateX(3%);
+}
+
+.policy-sec .content-container ul li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    transform: translate(-0%, -50%);
+    border: 10px solid;
+    border-color: transparent transparent transparent black;
+}
+
+@media (max-width: 1010px) {
+    .policy-sec .content-container ul li::before {
+        left: -5%;
+    }
+}
